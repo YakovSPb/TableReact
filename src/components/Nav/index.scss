@@ -1,0 +1,13 @@
+.menu{
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+  a{
+    display: block;
+    color: brown;
+    text-decoration: none;
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+}
